@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemLine"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ADE8FF">
+
+    <TextView
+        android:id="@+id/tvCountryname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:shadowColor="#ADE8FF"
+        android:text="Country:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tvInfectionsvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="left"
+        android:isScrollContainer="false"
+        android:shadowColor="#ADE8FF"
+        android:text="Infections:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+</LinearLayout>
